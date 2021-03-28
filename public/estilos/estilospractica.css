@@ -1,0 +1,270 @@
+.fondo{
+    background-color: rgb(0, 140, 255);
+}
+#A,#B,#C,#D,#E,#F,#G,#H,#I,#J,#K,#L,#M{
+    background-color:  rgb(0, 140, 255);
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    vertical-align: middle;
+}
+.ancho{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+@media(min-width:0px)and (max-width:1000px){
+   
+/*1*/
+.primero{
+    margin-top: 10px;
+
+    line-height: 300px;
+    height: 300px;
+}
+#L{
+    font-size: 10rem;
+    display: block;
+} 
+#A{
+    display: none;
+} 
+
+/*2*/    
+.segundo{
+    margin-top: 30px;
+
+    line-height: 250px;
+    height: 250px;
+}
+#B,#E{
+    display: none;
+}
+    #C,#D{
+        width: 49.5%;    
+    }
+    #C{
+        margin-right: 0.5%;    
+    }
+    #D{
+        margin-left: 0.5% ;
+    }
+
+/*3*/
+.tercero{
+    margin-top: 50px;
+
+    line-height: 200px;
+    height: 200px;
+}
+#M{
+    display: block;
+}
+#G{
+    display: none;
+}
+#F,#M{ 
+    margin-top: 10px;
+    width: 100%;
+}
+
+/*4*/
+.cuarto{
+    margin-top: 220px;
+
+    line-height: 75px;
+    height: 75px;
+}
+    #H,#I{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+/*5*/
+.quinto{
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    line-height: 75px;
+    height: 75px;
+}
+#K{
+    display: none;
+}
+#J{
+    width: 100%;
+    margin-top: 10px;
+}
+}
+
+@media(min-width:1000px) and (max-width:1200px){
+
+/*1*/
+    .primero{
+        margin-top: 10px;
+    
+        line-height: 300px;
+        height: 300px;
+    }
+    #L{
+        font-size: 10rem;
+        display: block;
+    } 
+    #A{
+        display: none;
+    } 
+
+/*2*/    
+    .segundo{
+        margin-top: 30px;
+    
+        line-height: 300px;
+        height: 300px;
+    }
+    #E{
+        display: none;
+    }
+    #B{
+        display: block;
+    }
+        #B,#C,#D{
+            width: 33%;    
+        }
+        #B,#C{
+            margin-right: 0.5%;    
+        }
+
+/*3*/
+    .tercero{
+        margin-top: 50px;
+
+        line-height: 350px;
+        height: 350px;
+    }
+    #M{
+        display: none;
+    }
+    #F,#G{ 
+        width: 49.3%;
+    }
+    #F{
+        margin-right: .68%;
+    }
+    #G{
+        margin-left: .68%;
+    }
+
+/*4*/
+    .cuarto{
+        margin-top: 50px;
+    
+        line-height: 75px;
+        height: 75px;
+    }
+        #H,#I{
+            width: 99%;
+            margin-top: 10px;
+        }
+
+/*5*/
+    .quinto{
+        margin-top: 100px;
+        margin-bottom: 50px;
+
+        line-height: 75px;
+        height: 75px;
+    }
+    #J,#K{
+        width: 99%;
+        margin-top: 10px;
+    }
+}
+@media(min-width:1200px){
+/*1*/
+    .primero{
+        margin-top: 10px;
+        line-height: 600px;
+        height: 600px;
+    }
+    #L{
+        display: none;
+    } 
+    #A{ 
+    font-size: 15rem;
+        display: block;
+    } 
+/*2*/
+    .segundo{
+        margin-top: 20px;
+    
+        line-height: 300px;
+        height: 300px;
+    }
+    #E{
+        display: block;
+    }
+        #B,#C,#D,#E{
+            width: 24%;    
+        }
+        #B,#C,#D{
+            margin-right: 1.33%;    
+        }
+
+/*3*/
+    .tercero{
+        margin-top: 10px;
+
+        line-height: 400px;
+        height: 400px;
+    }
+    #M{
+        display: none;
+    }
+    #F,#G{ 
+        width: 49.3%;
+    }
+    #F{
+        margin-right: .68%;
+    }
+    #G{
+        margin-left: .68%;
+    }
+/*4*/
+    .cuarto{
+        margin-top: 10px;
+    
+        line-height: 75px;
+        height: 75px;
+    }
+        #H{
+            width: 75%;
+            margin-right: 1%;
+        }
+        #I{
+            width: 24%;
+        }
+/*5*/
+    .quinto{
+        margin-top: 10px;
+    
+        margin-bottom: 50px;
+
+        line-height: 150px;
+        height: 150px;
+    }
+    #J,#K{
+        width: 40%;
+        margin-top: 60px;
+    }
+    #J{
+        margin-left: 2%;
+        margin-right: 8%;
+    }
+    #K{
+        margin-left: 8%;
+        margin-right: 2%;
+    }
+}
+
+
+

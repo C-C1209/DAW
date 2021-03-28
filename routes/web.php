@@ -30,3 +30,7 @@ Route::get('/contacto',function(){
     ->with('valor',$valores)
     ->with('fondo',$color);
 });
+
+Route::get('/practica',function(){
+    return view('practica');
+});
