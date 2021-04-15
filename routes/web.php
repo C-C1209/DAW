@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {return view('index');});
-
 Route::get('/producto/{id}/{nombre}',function($id,$nombre){
     return view('verproducto')
     ->with('id',$id)
@@ -33,4 +32,15 @@ Route::get('/contacto',function(){
 
 Route::get('/practica',function(){
     return view('practica');
+});
+Route::group(['prefix'=>'admin', 'as'=>'admin.'], function(){
+    Route::get('/', function () {return view('admin.index');});
+    Route::get('/usuarios', [App\Http\Controllers\Admin\UsuariosController::class,'index']);
+    Route::resource('usuarios',App\Http\Controllers\Admin\UsuariosController::class);
+
+    Route::get('/productos', [App\Http\Controllers\Admin\ProductosController::class,'index']);
+    Route::resource('productos',App\Http\Controllers\Admin\ProductosController::class);
+
+    Route::get('/categorias', [App\Http\Controllers\Admin\CategoriasController::class,'index']);
+    Route::resource('categorias',App\Http\Controllers\Admin\CategoriasController::class);
 });
